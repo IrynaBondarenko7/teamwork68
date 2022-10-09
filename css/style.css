@@ -66,3 +66,42 @@ img {
     color: #f7941e;
     background-color: transparent;
 }
+.hero-container {
+    display: flex;
+}
+.content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-wrap {
+   max-width: 433px;
+}
+.hero{
+    background-color: #F1F1F2;
+}
+
+.hero-title {
+    font-family: 'Roboto', sans-serif;
+font-size: 56px;
+line-height: 69px;
+margin-bottom: 36px;
+}
+.hero-text {
+    font-family: 'Roboto', sans-serif;
+font-size: 20px;
+line-height: 1.4;
+margin-bottom: 60px;
+}
+.hero-button {
+    background: #F7941E;
+border-radius: 5px;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+line-height: 1.22;
+text-transform: uppercase;
+color: #FFFFFF;
+border: none;
+padding: 19px 25px;
+}
