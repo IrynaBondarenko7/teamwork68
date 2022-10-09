@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #000000;
 }
+
 a {
     text-decoration: none;
     color: inherit;
@@ -33,33 +34,41 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 .header {
     background-color: #fafafa;
 }
+
 .container {
     width: 1440px;
     margin: 0 auto;
 }
+
 .header-container {
     display: flex;
     align-items: center;
 }
+
 .header-nav {
     display: flex;
     align-items: center;
 }
+
 .header-list {
     display: flex;
     gap: 31px;
     margin-left: 433px;
 }
+
 .header-list-link {
     display: block;
     padding: 47px 0;
 }
+
 .logo {
     margin-left: 80px;
 }
+
 .header-button {
     margin-left: auto;
     display: block;
@@ -70,18 +79,22 @@ img {
     color: #f7941e;
     background-color: transparent;
 }
+
 .hero-container {
     display: flex;
 }
+
 .content {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .content-wrap {
     max-width: 433px;
 }
+
 .hero {
     background-color: #f1f1f2;
 }
@@ -92,12 +105,14 @@ img {
     line-height: 69px;
     margin-bottom: 36px;
 }
+
 .hero-text {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 60px;
 }
+
 .hero-button {
     background: #f7941e;
     border-radius: 5px;
@@ -114,20 +129,24 @@ img {
 .about {
     background-color: #f1f1f2;
 }
+
 .about-container {
     display: flex;
 }
+
 .about-title {
     font-size: 32px;
     line-height: 1.4;
     margin-bottom: 23px;
 }
+
 .about-text {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 35px;
 }
+
 .about-link {
     font-size: 18px;
     line-height: 1.34;
@@ -137,3 +156,50 @@ img {
     border-radius: 5px;
     padding: 18px 47px;
 }
+
+/* -----BENEFITS--------------- */
+
+.benefits {
+    padding-top: 96px;
+    padding-bottom: 137px;
+    background-color: #ffffff;
+}
+
+.container-two {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-bottom: 23px;
+    font-size: 32px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.subtitle {
+    margin-bottom: 64px;
+    font-size: 18px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 30px;
+}
+
+.benefits-list-item {
+    flex-basis: calc((100% - 90px) / 4);
+    background: #FAFAFA;
+}
+
+.benefits-list-item-wrap {
+    padding: 24px;
+}
+
+.benefits-list-item-title {
+    margin-bottom: 74px;
+}
+
+.benefits-list-item-link {}
